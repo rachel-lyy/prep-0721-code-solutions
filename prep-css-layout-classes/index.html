@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100%/3);
+      padding-left: 8px;
+      padding-right: 8px;
+      margin: 10px;
+    }
+
+    img {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Complete the HTML here -->
+<div class="container">
+  <h1>The Pirates of the Caribbean</h1>
+  <div class="row">
+
+    <div class="column">
+      <img src="https://m.media-amazon.com/images/I/81c2gQE0sqL.jpg" alt="The Pirates of the Caribbean: Curse of the Black Pearl">
+      <h3>The Pirates of the Caribbean: Curse of the Black Pearl</h3>
+      <p>Capt. Jack Sparrow (Johnny Depp) arrives at Port Royal in the Caribbean without a ship or crew. His timing is
+      inopportune, however, because later that evening the town is besieged by a pirate ship. The pirates kidnap the
+      governor's daughter, Elizabeth (Keira Knightley), who's in possession of a valuable coin that is linked to a curse that has transformed the pirates into the undead. A gallant blacksmith (Orlando Bloom) in love with Elizabeth allies with Sparrow in pursuit of the pirates.</p>
+    </div>
+    <div class="column">
+      <img src="https://static.wikia.nocookie.net/transcripts/images/e/e7/Disney%27s_Pirates_of_the_Caribbean_-_Dead_Man%27s_Chest_-_iTunes_Movie_Poster.jpg/revision/latest?cb=20170417154054" alt="The Pirates of the Caribbean: Dead Man's Chest">
+      <h3>The Pirates of the Caribbean: Dead Man's Chest</h3>
+      <p>When ghostly pirate Davy Jones (Bill Nighy) comes to collect a blood debt, Capt. Jack Sparrow (Johnny Depp) must find a way to avoid his fate lest his soul be damned for all time. Nevertheless, the wily ghost manages to interrupt the wedding plans of Jack's friends Will Turner (Orlando Bloom) and Elizabeth Swann (Keira Knightley).</p>
+    </div>
+    <div class="column">
+      <img src="https://m.media-amazon.com/images/M/MV5BMTYyMTcxNzc5M15BMl5BanBnXkFtZTgwOTg2ODE2MTI@._V1_.jpg" alt="Pirates of the Caribbean: Dead Men Tell No Tales">
+      <h3>The Pirates of the Caribbean: Dead Men Tell No Tales</h3>
+      <p>Thrust into an all-new adventure, a down-on-his-luck Capt. Jack Sparrow feels the winds of ill-fortune blowing even more strongly when deadly ghost sailors led by his old nemesis, the evil Capt. Salazar, escape from the Devil's Triangle. Jack's only hope of survival lies in seeking out the legendary Trident of Poseidon, but to find it, he must forge an uneasy alliance with a brilliant and beautiful astronomer and a headstrong young man in the British navy.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
